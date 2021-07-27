@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>매장안내</title>
+    
+    <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/store.js"></script>
+</head>
+<body>
+	<header>
+		<div class="wrap_header">
+			<a href="index.html" id="logo_home">LUSH</a><!--로고-->
+			<div>
+				<a href="#" id="menu_icon">
+					<img src="img/main/menu_icon.png" alt="메뉴버튼이미지" >
+				</a>
+			</div>
+		</div>
+    </header>
+    <div id="main2"></div> <!--메뉴 띄울 박스-->
+    <section>
+        <article class="at at1" id="at1">
+        	<p id="at1_title1">SHOP INFORMATION</p>
+        	<p id="at1_title2">가까운 러쉬 매장에서 느끼는 향기로운 경험!</p>
+        </article>
+
+		<article class="at at3" id="at3">
+			<div class="wrap">
+				<div class="at3_menu">
+					<select name="at3_combo" onchange="at3_combo(this)">
+						<option>매장을 선택하세요</option>
+						<option>현대백화점 압구정 본점</option>
+						<option>롯데백화점 영등포점</option>
+						<option>롯데몰 수지점</option>
+						<option>롯데백화점 인천터미널점</option>
+						<option>현대백화점 판교점</option>
+						<option>현대백화점 충청점</option>
+						<option>현대아울렛 송도점</option>
+						<option>현대백화점 디큐브시티점</option>
+						<option>마리오몰점</option>
+						<option>스타필드 고양점</option>
+					</select>
+				</div>
+				
+				<div class="at3_combo_cont">
+					<div class="at3_title">
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+						<div class="at3_combo_title"></div>
+					</div>
+					<div class="at3_box">
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+						<div class="at3_combo_box"></div>
+					</div>
+
+					<div class="at3_text">
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+						<div class="at3_combo_text"></div>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+			
+		</article>
+
+        <article class="at at6" id="at6">
+            <div id="footer_img"></div>
+        </article> <!--하단 그림-->
+
+        
+    </section>
+
+    <!--footer 따로 분리 후 html연결-->
+    <div class="footer"></div>
+</body>
+</html>

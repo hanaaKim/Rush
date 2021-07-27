@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap'); 
+
+*{    
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+a{ text-decoration: none; color:black} 
+/*----------menu화면------------*/
+#menu{ 
+	width: 1280px; height: 800px;
+	border: 5px solid black;
+	background: rgba(255,255,255,0.9);
+}
+
+/*상단 헤더*/
+.wrap_menu{
+    width: 100%; height: 85px;
+    /* outline: 1px solid red; */
+	padding-top: 5px;
+}
+/*로고*/
+.wrap_menu>a{
+    float: left;
+    margin-left: 25px; line-height: 70px;
+    font-size:34px; color: black;
+	font-family: 'Archivo Black', sans-serif;   
+	/* outline: 1px solid red;  */
+}
+/*버튼 이미지*/
+.wrap_menu>.menu_icon{
+	width: 70px; height: 100%;
+	margin-left: 1188px;
+}
+.wrap_menu>.menu_icon>a{
+	display: block;
+	width: 100%; height: 100%;
+    padding: 9px;
+	/* outline: 1px solid blue; */
+}
+
+.wrap_menu>.menu_icon>a>img{
+	width: 100%; height: 100%;
+} 
+
+/*메뉴 틀 시작*/
+#menu>.menu_text{
+	position: relative;
+	top:150px; left: 150px;
+    width: 980px; height: 320px;
+/*	outline: 1px solid blue;*/
+}
+
+/*메뉴 카테고리 좌측 틀*/
+#menu>.menu_text>li{
+	position: relative;
+	top: 0; left: 0;
+    width: 150px; height: 80px;
+/*    outline: 1px solid blue;*/
+    line-height: 80px; text-indent: 30px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#menu>.menu_text>li>.subMenu{
+    position: relative;
+    top:-85%; left: 100%;
+    width: 200px; height: 150px;
+/*    border: 1px solid red;*/
+}
+
+#menu>.menu_text>li>.subMenu>li{
+    width: 80%; height: 40px; 
+/*    border: 1px solid red;*/
+    line-height: 40px; text-align: left;
+    font-size: 16px; 
+	margin: 5px auto;
+}
+
+/*'러쉬소개' 서브메뉴의 자식의 div 이미지*/
+#menu>.menu_text>li:nth-child(1)>.subMenu>li>div{
+	position: absolute;
+	top:-10%; left: 480px;
+	width: 350px; height: 320px;
+/*	border: 1px solid black;*/
+	display: none;
+}
+/*'제품' 서브메뉴의 자식의 div 이미지*/
+#menu>.menu_text>li:nth-child(2)>.subMenu>li>div{
+	position: absolute;
+	top:-65%; left: 480px;
+	width: 350px; height: 320px;
+/*	border: 1px solid black;*/
+	display: none;
+}
+
+/*============================================*/
+/*로그인 회원가입 버튼 만들기*/
+#menu>.footer{
+	position: absolute;
+	top:650px; left: 150px;
+	 width: 980px; height: 60px;
+/*	border: 1px solid black;*/
+}
+
+
+#menu>.footer>.btn_login{
+	float: left;
+	width: 260px; height: 100%;
+/*	outline: 1px solid black;*/
+}
+
+#menu>.footer>.btn_login>li{
+	position: relative;
+	top:30px; left: 0;
+	float: left;
+    width: 120px; height: 30px;
+    margin-right: 10px;
+	
+    font-size: 11px; text-align: center;
+    line-height: 30px;
+	
+    border-radius: 15px;
+    background: black; color:white;
+    cursor: pointer;
+}
+
+#menu>.footer>p{
+	float: right;
+    width: 700px; height: 60px;
+	margin-right: 0px;
+/*    outline: 1px solid red;*/
+    font-size: 14px; text-align: right;
+	line-height: 20px;
+}
+
+
+
+
+

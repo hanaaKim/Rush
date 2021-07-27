@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap'); 
+
+*{    
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;  
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+a{text-decoration: none;}
+/*---------start----------------*/
+header{
+	position: fixed;
+	top:0; left: 0;
+    
+    z-index: 100;
+	width: 100%; height: 90px;
+	background: black;
+    padding-top: 10px;
+}
+header .wrap{
+    max-width: 1280px; height: 70px;
+    margin: 0 auto;
+    /* outline: 1px solid white; */
+}
+/*상단-로고*/
+.wrap #logo_home{
+    float: left;
+    margin-left: 30px; line-height: 70px;
+    font-size:34px; color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.wrap div:nth-child(2){
+	width: 60px; height: 100%;
+	margin-left: 1200px;
+}
+.wrap div:nth-child(2) a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.wrap div:nth-child(2) a img{
+	width: 100%; height: 100%;
+}
+
+/* top버튼 */
+/* top버튼 */
+.topBtn{
+    position: fixed;
+    bottom:100px; left: 50%;
+    transform: translateX(-50%);
+    min-width: 1400px; height: 50px;
+}
+
+.topBtn i{
+    position: relative;
+    top:0; left: 1350px;
+    width: 50px; height: 50px;
+    font-size: 50px;
+    color:#8161AB; cursor: pointer;
+}
+
+#main2{
+    position: fixed;
+    top:0; left: 50%;
+/*    border: 1px solid red;*/
+    width: 1280px; height: 800px;
+    transform: translateX(-50%);
+	display: none;
+}
+/*-------section시작-------*/
+section{ 
+    position: relative;
+    top:90px; left:0;
+    width: 1280px;   
+    /* outline: 1px solid black ; */
+    margin: 0 auto;
+}
+/*----------좌측공간 at1시작---------*/
+
+.at1{
+    position: relative;
+    top:0; left: 0;
+	z-index: -99;
+    width: 640px; height: 2800px;
+    background: #f2f2f2;
+/*    outline:1px solid red;*/
+}
+
+/*좌측-메뉴 타이틀 고정*/
+.at1>ul{
+    position: fixed;
+    top:400px;
+    width: 640px; height: 200px;
+/*    outline: 1px solid black;*/
+    
+}
+.at1>ul>li{
+    padding-left: 30px;
+/*    border: 1px solid black;*/
+}
+
+.at1>ul>li:nth-child(1){
+    height: 40px; font-size: 20px;
+}
+.at1>ul>li:nth-child(2){
+    height: 160px; font-size: 35px;
+    line-height: 40px;
+}
+
+/*딸기 사진*/
+.at1>.strawberry{
+	position: relative;
+	top:600px; left: 0;
+	z-index: -98;
+	/*뒤배경이 z-index:-99*/
+	/*	border: 1px solid red;*/
+	width: 640px; height: 200px;
+	background: url(../img/believe/strawberry.jpg);
+	background-size: 100% 100%;
+	opacity: 0.6;
+}
+
+
+/*----------우측 공간 at2시작---------*/
+.at2{
+    position: absolute;
+    top:0; left: 50%;
+	z-index: -99;
+    width: 640px; height: 2800px;
+	background:white;
+/*    outline:1px solid blue;*/
+    
+}
+
+/*맨 처음 같이 있는 사진*/
+.at2>.at2_img1{
+	position: relative;
+    top:0; left: 0;
+    width: 100%; height: 600px;
+    background: url(../img/believe/main_img.jpg);
+    background-size: 100% 100%; 
+}
+
+/*title  이미지*/
+.at2>.title_img{
+	margin: 100px auto; 
+    width: 60%; height: 100px;
+    background: url(../img/believe/title.jpg);
+    background-size: 100% 100%; 
+/*	border: 1px solid black;*/
+}
+
+/*텍스트1 */
+.at2>.at2_text{
+	margin: 0 auto; 
+    width: 80%; height: 150px;
+/*	border:1px solid black;*/
+	text-align: center; line-height: 30px;
+ 	padding:25px;
+}
+
+/*검은바탕*/
+.at2>.at2_img2{
+	position: relative;
+	top:50px; left: 0;
+	width: 100%; height: 400px;
+	background: black;
+}
+
+/*웃고있는 여자 이미지*/
+.at2>.at2_img2>img{
+	width: 300px; 
+	margin-top: 30px;
+	margin-left: 310px;
+}
+/*텍스트2*/
+.at2>.at2_img2>p:nth-child(2){
+	position: absolute;
+	top:60px; left: 30px;
+	color: white; line-height: 25px;
+	font-size: 14px;
+	width:260px; height: 130px;
+/*	outline: 1px solid white;*/
+}
+/*텍스트2*/
+.at2>.at2_img2>p:nth-child(3){
+	position: absolute;
+	top:210px; left: 30px;
+	color: white; line-height: 25px;
+	font-size: 14px;
+	width:260px; height: 150px;
+/*	outline: 1px solid white;*/
+}
+
+.at2>.at2_text2{
+	position: relative;
+	top:100px; left: 0;
+	
+	width: 100%; height: 250px;
+	text-align: center; padding:25px;
+	line-height: 30px;
+/*	background: pink;*/
+}
+
+/*이미지 3개 중첩하는 공간*/
+.at2>.at2_img3{
+	position: relative;
+	top:100px; left: 0;
+	width: 100%; height: 450px;
+}
+
+
+.at2>.at2_img3>.overlay_img{
+	position: absolute;
+	top:0; left: 0;
+	width: 50%; 
+	margin-left: 25%;
+	box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.29);
+    opacity: 0;
+}
+
+.at2>.at2_img3>img:nth-child(1){
+	top:50px; left: 10px;
+	z-index: 3;
+}
+.at2>.at2_img3>img:nth-child(2){
+	top:90px; left: -40px;
+	z-index: 2;
+}
+
+.at2>.at2_img3>img:nth-child(3){
+	top:120px; left: 50px;
+	z-index: 1;
+}
+
+
+/*텍스트3*/
+.at2>.at2_text3{
+	position: relative;
+	top:150px; left: 0;
+	
+	width: 100%; height: 250px;
+	text-align: center; padding:25px;
+	line-height: 30px;
+	
+}
+/*at3 시작 - 하단 이미지*/
+.at3{
+	
+    background: #f2f2f2;
+    min-width: 1280px; height: 100px;
+}
+.at3>#footer_img{
+/*    border: 1px solid red;*/
+    width: 1280px; height: 100px;
+    margin: 0 auto;
+	z-index: 100;
+    background: url(../img/main/footer.svg);
+    background-size: 100% 100%;
+}
+/*---------------footer시작-----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

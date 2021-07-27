@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>제품</title>
+    
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/product.js"></script>
+</head>
+<body>
+	<header>
+		<div class="wrap">
+			<a href="index.html" id="logo_home">LUSH</a><!--로고-->
+			<div>
+				<a href="#" id="menu_icon">
+					<img src="img/main/menu_icon.png" alt="메뉴버튼이미지" >
+				</a>
+			</div>
+		</div>
+    </header>
+    
+	<div id="main2"></div> <!--메뉴 띄울 박스-->
+   
+    <section id="section">
+        <article class="at1" id="at1">
+			<p id="at1_title1">배쓰밤</p>
+       		<p id="at1_title2">찬란히 빛나는 물결에 부드럽게 몸을 맡겨 보세요</p>
+
+		</article>
+        
+		<!--제품-전체-페이지-->
+        <article class="at at2" id="at2">
+        	<p>제품</p>
+        	<ul id="menu_nav">
+        		<li onclick="page_func(2)">전체</li>
+        		<li onclick="page_func(3)">Bath &amp; Shower</li>
+        		<li onclick="page_func(6)">Face</li>
+        		<li onclick="page_func(8)">Hair</li>
+        	</ul>
+        	
+			<ul class="at2_big">
+				<li class="at2_img">
+					<ul class="at2_slideList">
+						<li class="at2_slideImg"></li>
+						<li class="at2_slideImg"></li>
+						<li class="at2_slideImg"></li>
+						<li class="at2_slideImg"></li>
+					</ul>
+				</li>
+
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+				<li class="at2_img"></li>
+			</ul>
+        	
+        </article>
+        
+<!--================================================================-->
+		<!--Bath&Shower-페이지1-배쓰밤-->
+        <article class="at at3" id="at3">
+        	<p>Bath &amp; Shower</p>
+        	<ul id="menu_nav">
+        		<li><span onclick="page_func(2)">전체</span>
+        		    <ul id="sub_menu">
+        		        <li onclick="page_func(3)">Bath</li>
+        		        <li onclick="page_func(6)">Face</li>
+        		        <li onclick="page_func(8)">Hair</li>
+        		    </ul>
+        		</li>
+        		
+        		<li onclick="page_func(3)">Bath Bombs</li>
+        		<li onclick="page_func(4)">Soap</li>
+        		<li onclick="page_func(5)">Shower Gels &amp; Jelly </li>
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img1">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text" id="at3_img_text1">
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>그루비 카인드 오브 러브</p>
+        			<p>#배쓰밤 #로즈우드와일랑일랑</p>
+        			<p>&#8361;19,000</p>
+        		</li>
+        		<li>
+        			<p class="out">품절</p>
+        			<p>인터갈락틱</p>
+        			<p>#배쓰밤 #환상적인우주느낌</p>
+        			<p>&#8361;17,000</p>
+        		</li>
+				<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>마쉬멜로우 월드</p>
+        			<p>#배쓰밤 #사탕가게에온듯한</p>
+        			<p>&#8361;19,000</p>
+        		</li>
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>멜리진</p>
+        			<p>#배쓰밤 #해초의부드러움</p>
+        			<p>&#8361;19,000</p>
+        		</li>
+        		
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img2">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text"  id="at3_img_text2">
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>피치</p>
+        			<p>#복숭아배쓰밤 #핑크빛입욕제</p>
+        			<p>&#8361;17,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>섹스 밤</p>
+        			<p>#섹시한밤 #일랑일랑꽃</p>
+        			<p>&#8361;12,000</p>
+        		</li>
+				<li>
+        			<p class="new">NEW</p>
+        			<p>템플 오브 더 스카이</p>
+        			<p>#배쓰밤 #레몬과오렌지</p>
+        			<p>&#8361;18,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>더 컴포터</p>
+        			<p>#이불처럼포근 #달콤함에퐁당</p>
+        			<p>&#8361;15,000</p>
+        		</li>
+        	</ul>
+        	
+        	
+        </article>
+        
+<!--------------------Bath&Shower-페이지3-비누---------------------->
+		<article class="at at4" id="at4">
+			<p>Bath &amp; Shower</p>
+        	<ul id="menu_nav">
+        		<li><span onclick="page_func(2)">전체</span>
+        		    <ul id="sub_menu">
+        		        <li onclick="page_func(3)">Bath</li>
+        		        <li onclick="page_func(6)">Face</li>
+        		        <li onclick="page_func(8)">Hair</li>
+        		    </ul>
+        		</li>
+        		
+        		<li onclick="page_func(3)">Bath Bombs</li>
+        		<li onclick="page_func(4)">Soap</li>
+        		<li onclick="page_func(5)">Shower Gels &amp; Jelly </li>
+        	</ul>
+        	<ul class="at3_img" id="at3_img1">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text" id="at3_img_text1">
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>카마</p>
+        			<p>#오래도록사랑받는 #카마마니아</p>
+        			<p>&#8361;13,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>보헤미안</p>
+        			<p>#레몬오일 #상틈함충전완료</p>
+        			<p>&#8361;9,000</p>
+        		</li>
+				<li>
+        			<p class="out">품절</p>
+        			<p>아웃백 메이트</p>
+        			<p>#솝 #숲속에온듯청량한향기</p>
+        			<p>&#8361;11,000</p>
+        		</li>
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>로즈 아르간</p>
+        			<p>#진짜장미향기 #기품넘치는향기</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+        		
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img2">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text"  id="at3_img_text2">
+        		<li>
+        			<p class="out">품절</p>
+        			<p>레몬 제스트</p>
+        			<p>#솝 #레몬껍질이송송</p>
+        			<p>&#8361;14,000</p>
+        		</li>
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>슬리피</p>
+        			<p>#라벤더솝 #편안한휴식이필요한날</p>
+        			<p>&#8361;13,000</p>
+        		</li>
+				<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>샌드스톤</p>
+        			<p>#고운모래 #스크럽도같이</p>
+        			<p>&#8361;10,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>씨 베지터블</p>
+        			<p>#솝 #바다의청량함을그대로</p>
+        			<p>&#8361;10,000</p>
+        		</li>
+        	</ul>
+		</article>
+     	
+<!------------------------Bath&Shower-페이지3-샤워젤--------------------->
+       	<article class="at at5" id="at5">
+			<p>Bath &amp; Shower</p>
+        	<ul id="menu_nav">
+        		<li><span onclick="page_func(2)">전체</span>
+        		    <ul id="sub_menu">
+        		        <li onclick="page_func(3)">Bath</li>
+        		        <li onclick="page_func(6)">Face</li>
+        		        <li onclick="page_func(8)">Hair</li>
+        		    </ul>
+        		</li>
+        		
+        		<li onclick="page_func(3)">Bath Bombs</li>
+        		<li onclick="page_func(4)">Soap</li>
+        		<li onclick="page_func(5)">Shower Gels &amp; Jelly </li>
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img1">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text" id="at3_img_text1">
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>더 올리브 브랜치</p>
+        			<p>#오일듬뿍샤워젤 #보습샤워시작</p>
+        			<p>&#8361;17,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>해피 히피</p>
+        			<p>#싱그러운자몽 #시트러스마니아</p>
+        			<p>&#8361;16,000</p>
+        		</li>
+				<li>
+        			<p class="new">NEW</p>
+        			<p>트와일라잇 100g/240g</p>
+        			<p>#샤워젤리 #라벤더의굿나잇인사</p>
+        			<p>&#8361;15,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>로즈 잼 100g/250g/500g</p>
+        			<p>#꽃다발대신 #장미샤워</p>
+        			<p>&#8361;19,000</p>
+        		</li>
+        		
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img2">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text"  id="at3_img_text2">
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>슬리피</p>
+        			<p>#샤워젤 #이름처럼편안한라벤더</p>
+        			<p>&#8361;19,000</p>
+        		</li>
+        		<li>
+        			<p class="out">품절</p>
+        			<p>허니 아이 워시드 더 키즈</p>
+        			<p>#꿀샤워젤 #신선한꿀이뚝뚝</p>
+        			<p>&#8361;17,000</p>
+        		</li>
+				
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>더티 스프링워시</p>
+        			<p>#꾸준히사랑받는 #상쾌시원샤워</p>
+        			<p>&#8361;17,000</p>
+        		</li>
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>후쉬 100g/240g</p>
+        			<p>#샤워젤리 #말랑말랑풍성한거품</p>
+        			<p>&#8361;13,000</p>
+        		</li>
+        		
+        	</ul>
+		</article>
+       
+<!--================================================================--> 
+       	<!--Face - 페이지1 '클렌져'-->
+        <article class="at at6" id="at6">
+        	<p>Face</p>
+        	<ul id="menu_nav">
+        		<li><span onclick="page_func(2)">전체</span>
+        		    <ul id="sub_menu">
+        		        <li onclick="page_func(3)">Bath</li>
+        		        <li onclick="page_func(6)">Face</li>
+        		        <li onclick="page_func(8)">Hair</li>
+        		    </ul>
+        		</li>
+        		
+        		<li onclick="page_func(6)">Cleanser</li>
+        		<li onclick="page_func(7)">Face Mask</li>
+        		<li></li>
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img1">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text" id="at3_img_text1">
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>렛 더 굿 타임즈 롤</p>
+        			<p>#프레쉬클렌저 #팝콘향기 #촉촉</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>아쿠아 마리나 100g/250g</p>
+        			<p>#프레쉬클렌저 #해초세안</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+				<li>
+        			<p class="out">품절</p>
+        			<p>오션 솔트 120g/250g</p>
+        			<p>#스크럽 #소금의건강한에너지</p>
+        			<p>&#8361;27,000</p>
+        		</li>
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>콜페이스</p>
+        			<p>#유명한숯비누 #바로그제품</p>
+        			<p>&#8361;18,000</p>
+        		</li>
+        		
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img2">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text"  id="at3_img_text2">
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>허벌리즘 100g/250g</p>
+        			<p>#클렌저 #부드러운아침세안</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>다크 엔젤스 100g/250g</p>
+        			<p>#프레쉬클렌저 #숯세안</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+				<li>
+        			<p class="local">국내제조</p>
+        			<p>엔젤스 온 베어 스킨</p>
+        			<p>#산뜻한마무리 #스크럽도함께</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>울트라 플랜트</p>
+        			<p>#클렌저 #싱그러운오렌지워터</p>
+        			<p>&#8361;33,000</p>
+        		</li>
+        	</ul>
+        	
+        </article>
+        
+<!---------------Face - 페이지2 '페이스마스크'----------------------------->
+        <article class="at at7" id="at7">
+        	<p>Face</p>
+        	<ul id="menu_nav">
+        		<li><span onclick="page_func(2)">전체</span>
+        		    <ul id="sub_menu">
+        		        <li onclick="page_func(3)">Bath</li>
+        		        <li onclick="page_func(6)">Face</li>
+        		        <li onclick="page_func(8)">Hair</li>
+        		    </ul>
+        		</li>
+        		
+        		<li onclick="page_func(6)">Cleanser</li>
+        		<li onclick="page_func(7)">Face Mask</li>
+        		<li></li>
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img1">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text" id="at3_img_text1">
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>뷰티 슬립 125g/315g</p>
+        			<p>#아름다움의비결 #골저스한영양</p>
+        			<p>&#8361;28,000</p>
+        		</li>
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>카타스트로피 코스메틱</p>
+        			<p>#블루베리의촉촉함 #슈퍼푸드</p>
+        			<p>&#8361;25,000</p>
+        		</li>
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>컵 오 커피 130g/325g</p>
+        			<p>#페이스엔보디마스크 #그윽한커피</p>
+        			<p>&#8361;18,000</p>
+        		</li>
+				<li>
+        			<p class="local">국내제조</p>
+        			<p>돈트 룩 앳 미</p>
+        			<p>#상큼한레몬팩 #쌀알갱이</p>
+        			<p>&#8361;25,000</p>
+        		</li>
+        		
+        		
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img2">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text"  id="at3_img_text2">
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>비비 씨워드</p>
+        			<p>#장미의촉촉함 #해초팩 #건강피부</p>
+        			<p>&#8361;25,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>오티픽스</p>
+        			<p>#바나나영양 #촉촉피부</p>
+        			<p>&#8361;25,000</p>
+        		</li>
+				<li>
+        			<p class="local">국내제조</p>
+        			<p>마스크 오브 매그너민티</p>
+        			<p>#꿀의촉촉함 #데일리팩 #민트</p>
+        			<p>&#8361;20,000</p>
+        		</li>
+        		<li>
+        			<p class="local">국내제조</p>
+        			<p>로지 칙스</p>
+        			<p>#장미꽃잎을우려낸 #장미팩</p>
+        			<p>&#8361;25,000</p>
+        		</li>
+        	</ul>
+        	
+        </article>
+        
+<!--================================================================-->     
+       	<!--Hair-샴푸바-페이지1-->
+        <article class="at at8" id="at8">
+        	<p>Hair</p>
+        	<ul id="menu_nav">
+        		<li><span onclick="page_func(2)">전체</span>
+        		    <ul id="sub_menu">
+        		        <li onclick="page_func(3)">Bath</li>
+        		        <li onclick="page_func(6)">Face</li>
+        		        <li onclick="page_func(8)">Hair</li>
+        		    </ul>
+        		</li>
+        		
+        		<li onclick="page_func(8)">Shampoo Bar</li>
+        		<li></li>
+        		<li></li>
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img1">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text" id="at3_img_text1">
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>엔젤 헤어</p>
+        			<p>#고체샴푸 #부드러운머릿결</p>
+        			<p>&#8361;16,000</p>
+        		</li>
+        		<li>
+        			<p class="new">NEW</p>
+        			<p>플라이웨이 헤어</p>
+        			<p>#소금샴푸바 #볼륨업</p>
+        			<p>&#8361;18,500</p>
+        		</li>
+				<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>몬탈바노</p>
+        			<p>#레몬샴푸바 #두피까지산뜻하게</p>
+        			<p>&#8361;15,500</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>속 앤 플롯</p>
+        			<p>#샴푸바 #두피케어의모든것</p>
+        			<p>&#8361;14,200</p>
+        		</li>
+        		
+        	</ul>
+        	
+        	<ul class="at3_img" id="at3_img2">
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        		<li class="at3_4img"></li>
+        	</ul>
+        	
+        	<ul class="at3_img_text"  id="at3_img_text2">
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>씨닉</p>
+        			<p>#샴푸바 #바닷소금듬뿍</p>
+        			<p>&#8361;17,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>뉴</p>
+        			<p>#착한고체샴푸 #뿌리튼튼</p>
+        			<p>&#8361;22,000</p>
+        		</li>
+				<li>
+        			<p class="new">NEW</p>
+        			<p>코코넛 라이스 케이크</p>
+        			<p>#영양이필요한모발 #코코넛가득</p>
+        			<p>&#8361;21,000</p>
+        		</li>
+        		<li>
+        			<p class="vegan">VEGAN</p>
+        			<p>제이슨 앤 더 아르간 오일</p>
+        			<p>#샴푸바 #아르간오일듬뿍</p>
+        			<p>&#8361;18,000</p>
+        		</li>
+        	</ul>
+        </article>
+<!--===================확대보기==========================-->
+        <article class="at at11" id="at11"> 
+			<div class="at11_box">
+				<div class="layer">
+					<div class="at11_slide_box">
+						<ul class="at11_slide">
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+	
+					<ul class="at11_arrow">
+						<li id="at11_left_btn"><i class="fas fa-chevron-left"></i></li>
+						<li id="at11_right_btn"><i class="fas fa-chevron-right"></i></li>
+					</ul>
+					
+					<ul class="at11_smallBox">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+
+				</div>
+	
+				<ul class="at11_info">
+					<li class="at11_name">제품이름</li>
+					<li class="at11_hashTag">#해쉬태그 텍스트</li>
+					<li>
+						<p>판매가  </p>
+						<p class="at11_price"></p>
+					</li>
+					<li>
+						<p>구매수량</p>
+						
+						<ul class="at11_count">
+							<li class="at11_minus">-</li>
+							<li class="at11_count_value"></li>
+							<li class="at11_plus">+</li>
+						</ul>
+					</li>
+					<li>
+						<p>총 합계 금액  </p>
+						<p class="at11_total">12131313</p>
+					</li>
+					<li class="at11_orderBtn">주문하기</li>
+				</ul>
+
+				<a href="#" class="close"><i class="fas fa-times"></i></a>
+			</div>
+        </article>
+
+<!--==================하단그림===========================-->
+    
+        <article class="at15" id="at15">
+            <div id="footer_img"></div>
+        </article> <!--하단 그림-->
+    </section>
+    
+
+    <!--footer 따로 분리 후 html연결-->
+    <div class="footer"></div>
+   
+
+</body>
+</html>

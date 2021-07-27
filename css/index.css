@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+*{    
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+a{text-decoration: none; color:black;}
+/*---------start----------------*/
+header{
+	position: fixed;
+	top:0; left: 0;
+    
+    z-index: 100;
+	width: 100%; height: 90px;
+	background: black;
+    padding-top: 10px;
+}
+header .wrap{
+    max-width: 1280px; height: 70px;
+    margin: 0 auto;
+    /* outline: 1px solid white; */
+}
+/*상단-로고*/
+.wrap #logo_home{
+    float: left;
+    margin-left: 30px; line-height: 70px;
+    font-size:34px; color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.wrap div:nth-child(2){
+	width: 60px; height: 100%;
+	margin-left: 1200px;
+}
+.wrap div:nth-child(2) a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.wrap div:nth-child(2) a img{
+	width: 100%; height: 100%;
+} 
+
+
+
+/*---------main----------------*/
+#main{
+	position: relative;
+	top: 0; left: 0;
+	width: 1280px; height: 850px;
+	/* outline: 1px solid blue; */
+	background: url(../img/main/main_video.jpg);
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+
+/* top버튼 */
+.topBtn{
+    position: fixed;
+    bottom:100px; left: 50%;
+    transform: translateX(-50%);
+    min-width: 1400px; height: 50px;
+}
+
+.topBtn i{
+    position: relative;
+    top:0; left: 1350px;
+    width: 50px; height: 50px;
+    font-size: 50px;
+    color:#8161AB; cursor: pointer;
+}
+
+/*메뉴 띄울공간*/
+#main2{
+	position: fixed;
+    top:0px; left: 50%;
+    width: 1280px; height: 800px;
+    transform: translateX(-50%);
+	display: none;
+}
+#main>p{
+    width: 60%;
+/*	outline: 1px solid blue;*/
+    color:white;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#main>p:first-child{
+	position: absolute;
+    top:0; left: 20%;
+	height:200px; 
+	font-size: 110px; line-height: 200px;
+    animation: main_text1_move 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes main_text1_move{
+    0%{top:-20%}
+    100%{top:35%}
+}
+
+#main>p:nth-child(2){
+	position: absolute;
+    top:55%; left: -70%;
+	height:100px;
+	font-size: 28px;
+	line-height: 100px;
+    animation: main_text2_move 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes main_text2_move{
+     0%{left:-70%}
+    100%{left:20%}
+}
+
+/*---------at1(러쉬소개) 시작----------------*/
+section{    }
+section article{
+    position: relative;
+    top:0px; left:0;
+    /* width: 1280px;  */
+/*    outline: 1px solid red;*/
+    margin: 0 auto;
+}
+/*--------------첫번째 컨텐츠-----------------*/
+.at1{
+    width: 1280px;  height: 800px;
+    background: #f2f2f2;
+    padding-top: 50px;
+}
+
+/*러쉬 소개의 큰 타이틀*/
+.at1>p{
+	width: 1180px; height: 100px;
+/*	border: 1px solid blue;*/
+	margin:  0 auto;
+	text-align: center; line-height: 30px;
+	font-size: 19px; 
+}
+
+/*이미지 및 텍스트*/
+.at1>ul{
+	width: 1100px; height: 600px;
+	/* outline: 1px solid blue;  */
+    margin: 0 auto;
+}
+
+/*이미지 초기 위치 설정*/
+.at1>ul>.at1_content1{
+    position: relative;
+	float: left;
+	opacity: 0; top:250px;
+	transition: 1.5s;
+	
+}
+
+/*각자 위치 잡기*/
+.at1>ul>li:nth-child(1){
+	left: 0;
+	width: 230px; height: 230px;
+}
+
+.at1>ul>li:nth-child(2){
+	left:20px;
+	width: 300px; height: 300px;
+}
+
+.at1>ul>li:nth-child(3){
+	left:50px;
+	width: 260px; height: 260px;
+}
+
+.at1>ul>li:nth-child(4){
+	left: 80px;
+	width: 220px; height: 220px;
+}
+
+/*동그란 그림*/
+.at1>ul>li>.at1_img{
+	border-radius: 100%;
+	width: 100%; height: 100%;
+    overflow: hidden;
+}
+.at1>ul>li>.at1_img>div{
+	width: 100%; height: 100%;
+	transition: 0.5s;
+}
+/*그림에 대한 텍스트*/
+.at1>ul>li>.at1_text{
+	margin-top: 20px;
+	width: 100%; height: 120px;
+	text-align: center; line-height: 23px;
+/*	border: 1px solid red;*/
+	font-size: 14px; 
+}
+/*그림에 대한 강조텍스트*/
+.at1 ul li .at1_text span{
+    color:#1ea24d; font-size: 17px;
+}
+
+/*러쉬 더 알아보기 버튼*/
+.at1>#btn1{
+    position: relative;
+    top:-10px; left:0; /*위에 큰 타이틀도 p태그라서 margin : 50 영향받음*/
+    width: 400px; height: 30px; 
+    border: 1px solid #1ea24d;
+    border-radius: 25px;
+    text-align: center; line-height: 30px;
+    font-size: 14px; 
+	cursor: pointer;
+    background: white;
+}
+
+.at1>#btn1:hover{
+    background: #1ea24c96; color:white;
+}
+
+/*-----at2(이미지 슬라이드) 시작-----*/
+.at2{
+	position: relative;
+	top:0; left: 0;
+    width:1280px;
+	height: 800px;
+/*    border: 1px solid blue;*/
+	overflow: hidden;
+	
+}
+.at2>ul{
+	position: absolute;
+	top:0; left: 0;
+    width: 200%; height:550px;
+/*	border: 1px solid red;*/
+	
+}
+.at2>ul>li{
+    float: left;
+    width: 10%; height: 100%;
+/*    border: 1px solid blue;*/
+    padding: 1%;
+}
+/*그림*/
+.at2>ul>li>.at2_slide_img{
+    width: 100%; height: 100%;
+}	
+
+/*연도 작은 텍스트*/
+.at2>ul>li>.at2_slide_date{
+    position: relative;
+    top:-200px; left:0;
+    width: 100%; height: 20px;
+/*    outline: 1px solid black;*/
+    text-indent: 20px; 
+}
+/*큰 텍스트*/
+.at2>ul>li>.at2_slide_title{
+    position: relative;
+    top:-200px; left:0;
+    width: 100%; height: 160px;
+/*    outline: 1px solid black;*/
+    font-size: 20px; 
+    line-height: 30px; padding: 20px;
+    font-family: 'Archivo Black', sans-serif;
+}		
+	
+/*하단 러쉬역사, 이념가치로 가는 버튼*/
+.at2>table{
+    position: relative;
+    top:600px; left:80%;
+    width: 250px; height: 100px;
+/*    border: 1px solid black;*/
+    line-height: 30px;
+}	
+
+
+.at2>table>tbody>tr>.btn2_text{
+/*    border: 1px solid black;*/
+    width: 200px;
+    text-indent: 30px;
+    cursor: pointer;
+}
+
+/*(중요!!)table의 첫번째 자식은 tbody라서 table>tr 적용이 안됨*/
+.at2>table>tbody>tr>.btn2_arrow{
+    width: 50px; text-align: left;
+    cursor: pointer;
+/*    border: 1px solid black;*/
+
+}
+
+.at2>table>tbody>tr:nth-child(2):hover td:nth-child(2),
+.at2>table>tbody>tr:nth-child(4):hover td:nth-child(2){
+    transform: translateX(15px);
+    transition: all 0.4s;
+}
+
+/*at3 시작 - 하단 이미지*/
+.at3{
+    position: relative;
+    top:0px; left: 0;
+    background: #f2f2f2;
+    min-width:1280px; height: 100px;
+}
+.at3>#footer_img{
+/*    border: 1px solid red;*/
+    width: 1280px; height: 100px;
+    margin: 0 auto;
+    background: url(../img/main/footer.svg);
+    background-size: 100% 100%;
+}
+/*----------------at4 시작-------------------*/
+.at4{
+    width:1280px; height: 600px;
+	overflow: hidden;
+}
+/*----좌측 at4메뉴----*/
+.at4 .at4_menu{
+	width: 220px; height: 320px;
+/*	border: 1px solid black;*/
+}
+.at4 .at4_menu li{
+	position: relative;
+	top:50px; left: -30px;
+	width: 100%; height: 55px;
+    
+	text-indent: 50px; line-height: 55px;
+    background: white;
+    box-shadow : 3px -3px 6px #999;
+
+	border-top-right-radius: 30px;
+	border-bottom-right-radius:30px;
+    cursor: pointer;
+}
+
+/*----좌측 at4메뉴----*/
+.at4 .at4_box{
+	position: absolute;
+	top:50px; left: 300px;
+	width: 850px; height: 500px;
+/*	border: 3px dotted #ccc;*/
+	display: none;
+    padding: 10px;
+    
+}
+/*신선한 핸드메이드*/
+#at4_box0{
+    display: block;
+}
+
+#at4_box0 h3{
+    width: 850px; height: 70px;
+/*    border: 1px solid black;*/
+    text-align: center; line-height: 35px;
+}
+#at4_box0 p{
+    width: 850px; height: 150px;
+/*    border: 1px solid black;*/
+    padding: 15px;
+    line-height: 25px; font-size: 14px;
+}
+#at4_box0 ul{
+    width: 850px; height: 260px;
+/*    outline: 1px solid red;*/
+}
+
+#at4_box0 ul li{
+    float: left;
+    width: 47%; height: 96%;
+/*    border: 1px solid black;*/
+    margin: 1%;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/*no 포장*/
+
+#at4_box1 h2{
+    width: 500px; height: 50px;
+    line-height: 50px; text-align: center;
+    margin:0 auto; margin-bottom: 0;
+    
+}
+#at4_box1 h4{
+    width: 700px; height: 60px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+#at4_box1 ul{
+    width: 850px; height: 180px;
+/*    border: 1px solid red;*/
+    margin: 50px auto;
+}
+#at4_box1 ul li{
+    float: left;
+    position: relative;
+    top:0; left: 0;
+    
+    width: 180px; height: 100%;
+/*    border: 1px solid red;*/
+    border-radius: 100%;
+    margin-left: 26px;
+}
+
+#at4_box1 p{
+    width: 700px; height: 90px;
+    padding: 20px; line-height: 25px;
+    margin: 0 auto; 
+}
+
+
+/*no 광고*/
+#at4_box2{
+    overflow: hidden;
+}
+#at4_box2 h3{
+    width: 700px; height: 70px;
+    line-height: 35px; text-align: center;
+    margin:50px auto;
+    margin-top:0;
+}
+#at4_box2 ul{
+    width: 100%; height: 300px;
+/*    border: 1px solid red;*/
+}
+#at4_box2 ul li{
+    float: left;
+    position: relative;
+    top:0; left: 0;
+    width: 48%; height: 100%;
+/*    border: 1px solid red;*/
+    border-radius: 15px;
+    margin: 0 1%;
+    transition: 1s;
+}
+
+#at4_box2 ul li:nth-child(1){
+    left: -55%;
+}
+#at4_box2 ul li:nth-child(2){
+    left: 55%;
+}
+
+/*오감 블랜딩*/
+#at4_box3{
+    background: url(../img/content3/at4_box3_bg.jpg);
+    background-size: 100% 100%;
+}
+#at4_box3 ul{
+    position:relative;
+    top:145px; left: 70px;
+    width:750px; height: 50px;
+/*    outline: 1px solid black;*/
+}
+#at4_box3 ul li{
+    position: relative;
+    top:0; left: 0;
+    float: left;
+    width:130px; height: 50px;
+    border-radius: 20px;
+    text-align: center; line-height: 50px;
+    margin-right: 10px; font-size: 23px;
+    cursor: pointer;
+  
+    
+}
+#at4_box3 ul li:nth-child(2),
+#at4_box3 ul li:nth-child(4){
+    top:125px;
+}
+
+#at4_box3 ul li div{
+    position: relative;
+    top:0px; left: -35px;
+    
+    width: 200px; height: 120px;
+/*    border: 1px solid red;*/
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 14px;
+    line-height: 20px; text-align: center;
+    padding: 10px;
+}
+#at4_box3 ul li:nth-child(1) div,
+#at4_box3 ul li:nth-child(3) div,
+#at4_box3 ul li:nth-child(5) div{
+    top:-170px;
+}
+
+#at4_box3 ul li div span{
+    font-size: 16px;
+}
+/*후각*/
+#at4_box3 ul li:nth-child(1){
+    background: rgba(252, 217, 68, 0.72);
+}
+#at4_box3 ul li:nth-child(1) div{
+    border: 3px solid rgba(252, 217, 68, 0.72);
+}
+/*시각*/
+#at4_box3 ul li:nth-child(2){
+    background: rgba(255, 142, 45, 0.72);
+}
+#at4_box3 ul li:nth-child(2) div{
+    border: 3px solid rgba(255, 142, 45, 0.72);
+}
+
+/*청각*/
+#at4_box3 ul li:nth-child(3){
+    background: rgba(171, 115, 212, 0.72);
+}
+#at4_box3 ul li:nth-child(3) div{
+    border: 3px solid rgba(171, 115, 212, 0.72);
+}
+/*촉각*/
+#at4_box3 ul li:nth-child(4){
+    background: rgba(104, 167, 230, 0.72);
+}
+#at4_box3 ul li:nth-child(4) div{
+    border: 3px solid rgba(104, 167, 230, 0.72);
+}
+/*미각*/
+#at4_box3 ul li:nth-child(5){
+    background: rgba(131, 226, 200, 0.72);
+    padding: 5px;;
+}
+#at4_box3 ul li:nth-child(5) div{
+    border: 3px solid rgba(131, 226, 200, 0.72);
+}
+
+/*---------------footer시작-----------------*/
+	
