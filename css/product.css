@@ -23,7 +23,6 @@ header{
 header .wrap{
     max-width: 1280px; height: 70px;
     margin: 0 auto;
-    /* outline: 1px solid white; */
 }
 /*상단-로고*/
 .wrap #logo_home{
@@ -48,7 +47,6 @@ header .wrap{
 #main2{
     position: fixed;
     top:0; left: 50%;
-/*    border: 1px solid red;*/
     width: 1280px; height: 800px;
     transform: translateX(-50%);
 	display: none;
@@ -56,10 +54,7 @@ header .wrap{
 
 /*==================================================*/
 /*-------section시작-------*/
-section{
-	/* position: relative;
-    top:0; left:0; */
-}
+
 section article{
     position: relative;
     top:90px; left:0;
@@ -306,8 +301,7 @@ section article{
 	top:0; left: 0;
 	width: 100%; height: 1910px;
 	z-index: 100;
-	background: rgba(0,0,0,0.5);
-
+	background: rgba(0,0,0,0.8);
 	display: none;
 }
 /*상세정보 박스틀 */
@@ -318,7 +312,8 @@ section article{
 
 	padding: 30px 60px;
 	width: 900px; height: 600px;
-	background: white;
+	background: #eee;
+	border-radius: 20px;
 }
 
 /*상세정보 팝업창의 슬라이드 박스 */
@@ -328,7 +323,6 @@ section article{
 	top:0; left: 0;
 	
     width:400px; height: 540px;
-	/* outline: 1px solid blue; */
 	margin-right: 40px;
 }
 
@@ -337,7 +331,6 @@ section article{
 	position: relative;
 	top:15px; left: 15px;
 	width: 350px; height: 350px;
-	/* outline: 1px solid gray; */
 	overflow: hidden;
 }
 
@@ -359,7 +352,6 @@ section article{
 	transform: translateX(-50%);
 	width: 470px; height: 50px;
 	margin-left: -10px;
-	/* outline: 1px solid red; */
 	display: flex;
 	justify-content: space-between;
 }
@@ -379,11 +371,7 @@ section article{
 	justify-content: space-between;
 }
 
-.at11 .at11_box .layer .at11_smallBox li{
-	
-	width: 110px; 
-	/* outline: 1px solid rgb(238, 152, 238); */
-}
+.at11 .at11_box .layer .at11_smallBox li{ width: 110px; }
 
 /* 제품 정보칸 */
 .at11 .at11_box .at11_info{
@@ -391,7 +379,6 @@ section article{
 	top: 15px;
 	float: left;
 	width: 340px; height: 500px;
-	/* outline: 1px solid blue; */
 	padding-top: 45px;
 }
 
@@ -412,7 +399,6 @@ section article{
 .at11 .at11_box .at11_info li p{
     float: left;
     width: 130px; height: 100%;
-    /* outline: 1px solid blue; */
 }
 /* 구매수량 박스 */
 .at11>.at11_box>.at11_info>li>.at11_count{
@@ -437,10 +423,8 @@ section article{
 	width: 30px; height: 30px;
 	position: absolute;
 	top:10px; right: 10px;
-	/* outline: 1px solid red; */
 	line-height: 30px; text-align: center;
 	font-size: 30px;
-
 }
 
 /*--------at15 시작 - 하단 이미지------------*/
@@ -451,7 +435,6 @@ section article{
     width: 100%; height: 100px;
 }
 .at15>#footer_img{
-/*    border: 1px solid red;*/
     width: 1280px; height: 100px;
     margin: 0 auto;
     background: url(../img/main/footer.svg);
@@ -459,7 +442,6 @@ section article{
 }
 
 /*---------------footer시작-----------------*/
-
 .footer{
 	position: relative;
 	top:100px; left: 0;

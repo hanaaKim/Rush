@@ -56,7 +56,6 @@ header .wrap{
 }
 /*==================================================*/
 /*-------section시작-------*/
-section{    }
 section article{
     position: relative;
     top:90px; left:0;
@@ -80,9 +79,7 @@ section article{
 
 
 /*---at2----시작*/
-.at2{ 
-	height: 250px;
-}
+.at2{ 	height: 250px;}
 
 /*---------------at2_2------------------*/
 .at2>.at2_2{

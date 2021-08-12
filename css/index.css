@@ -43,8 +43,6 @@ header .wrap{
 	width: 100%; height: 100%;
 } 
 
-
-
 /*---------main----------------*/
 #main{
 	position: relative;
@@ -119,12 +117,10 @@ header .wrap{
 }
 
 /*---------at1(러쉬소개) 시작----------------*/
-section{    }
+
 section article{
     position: relative;
     top:0px; left:0;
-    /* width: 1280px;  */
-/*    outline: 1px solid red;*/
     margin: 0 auto;
 }
 /*--------------첫번째 컨텐츠-----------------*/
