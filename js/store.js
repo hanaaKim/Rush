@@ -95,9 +95,6 @@ function fadefunc(){
 	$(".at3_combo_title").eq(next).show();
 	
 	current=next;
-	// console.log("current:"+current);
-
-
 }
 /*----------------------------jQuery---------------------*/
 $(function(){
@@ -118,9 +115,6 @@ $(function(){
 	$(".at3_combo_text:gt(0)").hide();
 	$(".at3_combo_title:gt(0)").hide();
 	fadeInterval = setInterval('fadefunc()',2000);
-
-
-
 	/*===========================================================*/
     //menu 연결
 	$("#menu_icon").click(function(e){
@@ -133,6 +127,4 @@ $(function(){
 	
     //footer 연결
 	$(".footer").load('footer.html');
-	
-
 });

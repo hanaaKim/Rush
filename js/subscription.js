@@ -82,13 +82,13 @@ $(function(){
             alert("이메일을 입력하세요");
         }else{
             if(!email_check.test(emailValue)){  alert("이메일을 형식에 맞게 입력해주세요.");    }
-            else{  $(".layer_bg").stop().slideDown(400);   }
+            else{  $(".layer_bg").show();   }
         }
         
     })
 
     $(".ok_btn").click(function(){
-        $(".layer_bg").stop().slideUp(250);
+        $(".layer_bg").hide();
     })
     /*=================================================*/ 
     //menu 연결

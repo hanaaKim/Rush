@@ -91,7 +91,7 @@ $(function(){
 	//캠페인랑 원재료에서 클릭시 팝업창 뜸 -> 배열로 정보 넣기
 	//캠페인
 	$(".at5>.content_img>li").click(function(){
-		$(".layer_bg").stop().slideDown(400);
+		$(".layer_bg").show();
 		
 		var index = $(this).index();
 		// console.log(index);
@@ -102,7 +102,7 @@ $(function(){
 	})
 	//원재료
 	$(".at6>.content_img>li").click(function(){
-		$(".layer_bg").stop().slideDown(400);
+		$(".layer_bg").show();
 		var index = $(this).index();
 		// console.log(index);
 		$(".layer_title").html(layer_title6A[index]);
@@ -113,7 +113,7 @@ $(function(){
 	//닫기
 	$(".close").click(function(e){
 		e.preventDefault();
-		$(".layer_bg").stop().slideUp(200);
+		$(".layer_bg").hide();
 	})
 
 

@@ -173,7 +173,6 @@ $(function(){
 	
 	$(".at3_4img").on("click",function(){
 		no=$(".at3_4img").index(this); //모든 at3_4img클래스의 인덱스 구하기
-		//  console.log(no);
 
 		//제품사진 클릭하면 확대보기 레이어 나옴
 		$(".at11").show();
