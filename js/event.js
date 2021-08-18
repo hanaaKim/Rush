@@ -39,6 +39,7 @@ $(function(){
 		if(index==0){
 			$(".at3").css("display","block").css("width","1280px");
 			$(".content_box").css("display","none");
+			
 		}
 		else if(index==2){$(".at4").css("display","block");}
 		else if(index==4){$(".at5").css("display","block");}
@@ -55,14 +56,20 @@ $(function(){
 
 	$(".content_img>li").click(function(){
 		var index = $(this).index();
-		// console.log(index);
-		$(".at3").css("width","2080px");
-		$(".content_box").css("display","block"); //틀 자체를 안보이게 했다가 보이게 한후,
+
+		$(".content_box").css("display","block"); //틀 자체를 안보이게 했다가 보이게 한후,		
 		$(".content_box_img").css("display","none"); //모두 안보이게
 		$(".content_box_img").eq(index).css("display","block"); //클릭한거만 보이게
 
+		$(".content_box_close").css("display","block"); 
 	})
 
+	//content_box 닫기
+	$(".content_box_close").click(function(e){
+		e.preventDefault();
+		$(".content_box").fadeOut();
+		$(".content_box_close").css("display","none");
+	})
 
 	//종료된 이벤트
 	$(".at5>.content_img>li").on("click",function(){	alert("이미 종료된 이벤트입니다.");})

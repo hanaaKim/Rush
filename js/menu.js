@@ -56,12 +56,10 @@ $(function(){
            
         }
 		else if(no==4){
-            // $(location).attr("href","product.html");
             page_func(6);
             $('#main2').show().slideUp();
             
         }else{
-            // $(location).attr("href","product.html");
             page_func(8);
             $('#main2').show().slideUp();
             

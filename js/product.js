@@ -248,7 +248,6 @@ $(function(){
 	
 		//1.제품이름
 		$(".at11_name").html(at11_nameA[no]);
-		// var at11_name = at11_nameA[no];//주문하기 alert에서 필요
 
 		//2.해쉬태그
 		$(".at11_hashTag").html(at11_hashTagA[no]);

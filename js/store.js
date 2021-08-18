@@ -86,7 +86,6 @@ function at3_combo(se){
 let current=0;
 function fadefunc(){
 	let next = (current+1)%size;
-	// console.log("next:"+next);
 	$(".at3_combo_box").eq(current).fadeOut();
 	$(".at3_combo_box").eq(next).fadeIn();
 	$(".at3_combo_text").eq(current).hide();
