@@ -136,7 +136,7 @@ section{
 .at2 .right_btn{
     position: relative;
     top:10px; left: 580px;
-    z-index: 100;
+    z-index: 99;
     width: 50px; height: 50px;
     color: white; font-size: 40px;
     text-align: center; line-height: 50px;
