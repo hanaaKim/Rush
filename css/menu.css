@@ -19,7 +19,6 @@ a{ text-decoration: none; color:black}
 /*상단 헤더*/
 .wrap_menu{
     width: 100%; height: 85px;
-    /* outline: 1px solid red; */
 	padding-top: 5px;
 }
 /*로고*/
@@ -28,7 +27,6 @@ a{ text-decoration: none; color:black}
     margin-left: 25px; line-height: 70px;
     font-size:34px; color: black;
 	font-family: 'Archivo Black', sans-serif;   
-	/* outline: 1px solid red;  */
 }
 /*버튼 이미지*/
 .wrap_menu>.menu_icon{
@@ -39,7 +37,6 @@ a{ text-decoration: none; color:black}
 	display: block;
 	width: 100%; height: 100%;
     padding: 8px;
-	/* outline: 1px solid blue; */
 }
 
 .wrap_menu>.menu_icon>a>img{
@@ -51,7 +48,6 @@ a{ text-decoration: none; color:black}
 	position: relative;
 	top:150px; left: 150px;
     width: 980px; height: 320px;
-/*	outline: 1px solid blue;*/
 }
 
 /*메뉴 카테고리 좌측 틀*/
@@ -59,7 +55,6 @@ a{ text-decoration: none; color:black}
 	position: relative;
 	top: 0; left: 0;
     width: 150px; height: 80px;
-/*    outline: 1px solid blue;*/
     line-height: 80px; text-indent: 30px;
     font-size: 23px;
     cursor: pointer;
@@ -69,12 +64,10 @@ a{ text-decoration: none; color:black}
     position: relative;
     top:-85%; left: 100%;
     width: 200px; height: 150px;
-/*    border: 1px solid red;*/
 }
 
 #menu>.menu_text>li>.subMenu>li{
     width: 80%; height: 40px; 
-/*    border: 1px solid red;*/
     line-height: 40px; text-align: left;
     font-size: 16px; 
 	margin: 5px auto;
@@ -85,7 +78,6 @@ a{ text-decoration: none; color:black}
 	position: absolute;
 	top:-10%; left: 480px;
 	width: 350px; height: 320px;
-/*	border: 1px solid black;*/
 	display: none;
 }
 /*'제품' 서브메뉴의 자식의 div 이미지*/
@@ -93,7 +85,6 @@ a{ text-decoration: none; color:black}
 	position: absolute;
 	top:-65%; left: 480px;
 	width: 350px; height: 320px;
-/*	border: 1px solid black;*/
 	display: none;
 }
 
@@ -102,15 +93,13 @@ a{ text-decoration: none; color:black}
 #menu>.footer{
 	position: absolute;
 	top:650px; left: 150px;
-	 width: 980px; height: 60px;
-/*	border: 1px solid black;*/
+	width: 980px; height: 60px;
 }
 
 
 #menu>.footer>.btn_login{
 	float: left;
 	width: 260px; height: 100%;
-/*	outline: 1px solid black;*/
 }
 
 #menu>.footer>.btn_login>li{
@@ -132,7 +121,6 @@ a{ text-decoration: none; color:black}
 	float: right;
     width: 700px; height: 60px;
 	margin-right: 0px;
-/*    outline: 1px solid red;*/
     font-size: 14px; text-align: right;
 	line-height: 20px;
 }

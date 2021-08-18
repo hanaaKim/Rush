@@ -22,7 +22,6 @@ header{
 header .wrap{
     max-width: 1280px; height: 70px;
     margin: 0 auto;
-    /* outline: 1px solid white; */
 }
 /*상단-로고*/
 .wrap #logo_home{
@@ -49,7 +48,6 @@ header .wrap{
 #main2{
     position: fixed;
     top:0; left: 50%;
-/*    border: 1px solid red;*/
     width: 1280px; height: 800px;
     transform: translateX(-50%);
 	display: none;
@@ -73,7 +71,6 @@ section article{
 	top:100px; left: 50%;
 	transform: translateX(-50%);
 	font-size: 50px;
-	/* border: 1px solid red; */
     color: white; 
 }
 
@@ -87,13 +84,10 @@ section article{
 	top:105px; left: 50%;
 	transform: translateX(-50%);
 	width: 750px; height: 40px;
-	/* outline: 1px solid red; */
-	
 }
 .at2>.at2_2>li{
 	float: left;
 	width: 32%;
-/*	outline: 1px solid red;*/
 	text-align: center; line-height: 40px;
     cursor: pointer;
 	border-radius: 15px;
@@ -111,13 +105,11 @@ section article{
 	width:1280px;
 	height: 1250px;
     display: block;
-	/* border: 1px solid red; */
 	transition: all 0.5s;
 }
 
 .at4{ 
 	width: 1280px; 
-    /* border: 1px solid red; */
 	/* 트리구조로 열렸다 닫혔다해서 height는 안씀 */
     display: none;
 }
@@ -129,14 +121,10 @@ section article{
 
 .at6{
 	width: 1280px; height: 1050px;
-    /* border: 1px solid red; */
     display: none;
 }
 
-.at3>.content_img{
-	width: 1280px;
-}
-
+.at3>.content_img{	width: 1280px;}
 .at5>.content_img{
 	width: 1280px; height: 1250px;
 }
@@ -149,7 +137,6 @@ section article{
 	top:0; left: 0;
 	float: left;
 	width: 30%; height: 350px;
-/*	border: 1px solid red;*/
 	margin-bottom: 50px;
 	overflow: hidden;
 }
@@ -177,7 +164,6 @@ section article{
 	width: 100%; height: 250px;
 	transition: all 0.5s;
 	overflow: hidden;
-/*	border-radius: 15px;*/
 	opacity: 0.5;
 	cursor: pointer;
 }
@@ -203,24 +189,36 @@ section article{
 }
 .at3>.content_img>li>p>.ymd{
 	font-size: 13px; color:gray;
-	
 }
 
 /*진행중 이벤트-오른쪽 박스 공간*/
 .at3 .content_box{
-	position: relative;
-	top:0; left: 80px;
-	width: 720px; 
-	outline: 2px solid #ccc;
+	position: absolute;
+	top:0; right: 0;
+	width: 850px; 
+	background:white;
+
+	border: 4px solid #ccc;
+	border-radius: 20px;
 	display: none;
-	/* background: #ccc; */
 }
 .at3 .content_box li{
 	position: absolute;
 	top:0; left: 0;
 	width: 100%; height: 100%;
 }
-
+/* 닫기 버튼 */
+.content_box_close{
+	position: absolute;
+	top:15px; right: 15px;
+	width: 30px; height: 30px;
+	display: none;
+}
+.content_box_close i{
+	display: block; color:black;
+	text-align: center; line-height: 30px;
+	font-size: 30px;
+} 
 
 /*종료된 이벤트-하단 텍스트들-회색으로 하려고 따로*/
 .at5>.content_img>li>p>.title_text,
@@ -249,7 +247,6 @@ section article{
 	margin-right: 5%;
 }
 
-
 .at3>.content_img>li:nth-child(3),
 .at3>.content_img>li:nth-child(6),
 .at3>.content_img>li:nth-child(9),
@@ -262,15 +259,12 @@ section article{
 	float: right;
 }
 
-
-
 /*종료된 이벤트 - 하단 페이지 숫자*/
 .at5>.page_number, .at6>.page_number{
 	position: relative;
 	top:0px; left:0;
 	
 	width: 100px; height: 50px;
-/*	outline:1px solid blue;*/
 	margin: 0 auto;
     margin-bottom:100px;
 }
@@ -278,7 +272,6 @@ section article{
 .at5>.page_number>li, .at6>.page_number>li{
 	float: left;
 	width: 30px; height: 30px;
-/*	outline: 1px solid black;*/
 	text-align: center; line-height: 30px;
 	cursor: pointer;
 	margin:10px;
@@ -291,7 +284,6 @@ section article{
 
 /*이벤트 발표-at4*/
 .at4>ul{
-/*	border: 1px solid blue;*/
 	width: 90%; height: 100%;
 	margin-left: 5%;
 	padding-bottom: 50px;
@@ -319,7 +311,6 @@ section article{
 }
 .at4>ul>li>ul>li{
 	float: left;
-    /* border: 1px solid black; */
 	height: 100%;
 }
 
@@ -345,7 +336,6 @@ section article{
 
 /* 선정자 박스 */
 .at4>ul>li>.at4_submenu>.at4_box1{
-	
 	width: 400px; 
 	outline: 1px solid black;
 	text-align: center; line-height: 30px;
@@ -369,13 +359,11 @@ section article{
 .at9{
     position: relative;
     top:100px; left: 0;
-/*    border: 1px solid black;*/
     background: #f2f2f2;
 	height: 100px;
 }
 
 .at9>#footer_img{
-/*    border: 1px solid red;*/
     width: 1280px; height: 100px;
     margin: 0 auto;
     background: url(../img/main/footer.svg);

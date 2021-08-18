@@ -21,7 +21,6 @@ header{
 header .wrap{
     max-width: 1280px; height: 70px;
     margin: 0 auto;
-    /* outline: 1px solid white; */
 }
 /*상단-로고*/
 .wrap #logo_home{
@@ -48,7 +47,6 @@ header .wrap{
 	position: relative;
 	top: 0; left: 0;
 	width: 1280px; height: 850px;
-	/* outline: 1px solid blue; */
 	background: url(../img/main/main_video.jpg);
 	background-size: 100% 100%;
 	margin: 0 auto;
@@ -80,7 +78,6 @@ header .wrap{
 }
 #main>p{
     width: 60%;
-/*	outline: 1px solid blue;*/
     color:white;
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
@@ -133,7 +130,6 @@ section article{
 /*러쉬 소개의 큰 타이틀*/
 .at1>p{
 	width: 1180px; height: 100px;
-/*	border: 1px solid blue;*/
 	margin:  0 auto;
 	text-align: center; line-height: 30px;
 	font-size: 19px; 
@@ -142,7 +138,6 @@ section article{
 /*이미지 및 텍스트*/
 .at1>ul{
 	width: 1100px; height: 600px;
-	/* outline: 1px solid blue;  */
     margin: 0 auto;
 }
 
@@ -152,7 +147,6 @@ section article{
 	float: left;
 	opacity: 0; top:250px;
 	transition: 1.5s;
-	
 }
 
 /*각자 위치 잡기*/
@@ -191,7 +185,6 @@ section article{
 	margin-top: 20px;
 	width: 100%; height: 120px;
 	text-align: center; line-height: 23px;
-/*	border: 1px solid red;*/
 	font-size: 14px; 
 }
 /*그림에 대한 강조텍스트*/
@@ -222,21 +215,17 @@ section article{
 	top:0; left: 0;
     width:1280px;
 	height: 800px;
-/*    border: 1px solid blue;*/
 	overflow: hidden;
 	
 }
 .at2>ul{
 	position: absolute;
 	top:0; left: 0;
-    width: 200%; height:550px;
-/*	border: 1px solid red;*/
-	
+    width: 200%; height:550px;	
 }
 .at2>ul>li{
     float: left;
     width: 10%; height: 100%;
-/*    border: 1px solid blue;*/
     padding: 1%;
 }
 /*그림*/
@@ -249,7 +238,6 @@ section article{
     position: relative;
     top:-200px; left:0;
     width: 100%; height: 20px;
-/*    outline: 1px solid black;*/
     text-indent: 20px; 
 }
 /*큰 텍스트*/
@@ -257,7 +245,6 @@ section article{
     position: relative;
     top:-200px; left:0;
     width: 100%; height: 160px;
-/*    outline: 1px solid black;*/
     font-size: 20px; 
     line-height: 30px; padding: 20px;
     font-family: 'Archivo Black', sans-serif;
@@ -268,13 +255,11 @@ section article{
     position: relative;
     top:600px; left:80%;
     width: 250px; height: 100px;
-/*    border: 1px solid black;*/
     line-height: 30px;
 }	
 
 
 .at2>table>tbody>tr>.btn2_text{
-/*    border: 1px solid black;*/
     width: 200px;
     text-indent: 30px;
     cursor: pointer;
@@ -284,8 +269,6 @@ section article{
 .at2>table>tbody>tr>.btn2_arrow{
     width: 50px; text-align: left;
     cursor: pointer;
-/*    border: 1px solid black;*/
-
 }
 
 .at2>table>tbody>tr:nth-child(2):hover td:nth-child(2),
@@ -302,7 +285,6 @@ section article{
     min-width:1280px; height: 100px;
 }
 .at3>#footer_img{
-/*    border: 1px solid red;*/
     width: 1280px; height: 100px;
     margin: 0 auto;
     background: url(../img/main/footer.svg);
@@ -316,7 +298,6 @@ section article{
 /*----좌측 at4메뉴----*/
 .at4 .at4_menu{
 	width: 220px; height: 320px;
-/*	border: 1px solid black;*/
 }
 .at4 .at4_menu li{
 	position: relative;
@@ -337,7 +318,6 @@ section article{
 	position: absolute;
 	top:50px; left: 300px;
 	width: 850px; height: 500px;
-/*	border: 3px dotted #ccc;*/
 	display: none;
     padding: 10px;
     
@@ -349,24 +329,20 @@ section article{
 
 #at4_box0 h3{
     width: 850px; height: 70px;
-/*    border: 1px solid black;*/
     text-align: center; line-height: 35px;
 }
 #at4_box0 p{
     width: 850px; height: 150px;
-/*    border: 1px solid black;*/
     padding: 15px;
     line-height: 25px; font-size: 14px;
 }
 #at4_box0 ul{
     width: 850px; height: 260px;
-/*    outline: 1px solid red;*/
 }
 
 #at4_box0 ul li{
     float: left;
     width: 47%; height: 96%;
-/*    border: 1px solid black;*/
     margin: 1%;
     opacity: 1;
     transition: 1.5s;
@@ -378,7 +354,6 @@ section article{
     width: 500px; height: 50px;
     line-height: 50px; text-align: center;
     margin:0 auto; margin-bottom: 0;
-    
 }
 #at4_box1 h4{
     width: 700px; height: 60px;
@@ -387,7 +362,6 @@ section article{
 }
 #at4_box1 ul{
     width: 850px; height: 180px;
-/*    border: 1px solid red;*/
     margin: 50px auto;
 }
 #at4_box1 ul li{
@@ -396,7 +370,6 @@ section article{
     top:0; left: 0;
     
     width: 180px; height: 100%;
-/*    border: 1px solid red;*/
     border-radius: 100%;
     margin-left: 26px;
 }
@@ -420,25 +393,19 @@ section article{
 }
 #at4_box2 ul{
     width: 100%; height: 300px;
-/*    border: 1px solid red;*/
 }
 #at4_box2 ul li{
     float: left;
     position: relative;
     top:0; left: 0;
     width: 48%; height: 100%;
-/*    border: 1px solid red;*/
     border-radius: 15px;
     margin: 0 1%;
     transition: 1s;
 }
 
-#at4_box2 ul li:nth-child(1){
-    left: -55%;
-}
-#at4_box2 ul li:nth-child(2){
-    left: 55%;
-}
+#at4_box2 ul li:nth-child(1){ left: -55%;}
+#at4_box2 ul li:nth-child(2){ left: 55%;}
 
 /*오감 블랜딩*/
 #at4_box3{
@@ -449,7 +416,6 @@ section article{
     position:relative;
     top:145px; left: 70px;
     width:750px; height: 50px;
-/*    outline: 1px solid black;*/
 }
 #at4_box3 ul li{
     position: relative;
@@ -460,8 +426,6 @@ section article{
     text-align: center; line-height: 50px;
     margin-right: 10px; font-size: 23px;
     cursor: pointer;
-  
-    
 }
 #at4_box3 ul li:nth-child(2),
 #at4_box3 ul li:nth-child(4){
@@ -473,7 +437,6 @@ section article{
     top:0px; left: -35px;
     
     width: 200px; height: 120px;
-/*    border: 1px solid red;*/
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     font-size: 14px;
@@ -526,6 +489,3 @@ section article{
 #at4_box3 ul li:nth-child(5) div{
     border: 3px solid rgba(131, 226, 200, 0.72);
 }
-
-/*---------------footer시작-----------------*/
-	

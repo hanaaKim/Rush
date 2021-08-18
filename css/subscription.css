@@ -22,7 +22,6 @@ header{
 header .wrap{
     max-width: 1280px; height: 70px;
     margin: 0 auto;
-    /* outline: 1px solid white; */
 }
 /*상단-로고*/
 .wrap #logo_home{
@@ -48,7 +47,6 @@ header .wrap{
 #main2{
     position: fixed;
     top:0; left: 50%;
-/*    border: 1px solid red;*/
     width: 1280px; height: 800px;
     transform: translateX(-50%);
     display: none;
@@ -125,7 +123,6 @@ section article{
 .at2{
     
 	width: 1280px; height: 700px;
-	/* border: 1px solid red; */
 	margin: 0 auto;
 }
 
@@ -134,7 +131,6 @@ section article{
     width: 600px; height: 100px;
     margin: 0 auto;
     text-align: center; line-height: 100px;
-    /* border: 1px solid red; */
 }
 
 /*큰 틀*/
@@ -147,7 +143,7 @@ section article{
 
 /*그림 부분 */
 .at2 .at2_big .at2_img{
-     /*슬라이드 때문에 position 필요 */
+    /*슬라이드 때문에 position 필요 */
     position: relative;
     top:0; left: 0;
     width: 1800px; height: 380px;
@@ -176,7 +172,7 @@ section article{
 
 /*텍스트 부분 */
 .at2 .at2_big .at2_text{
-     /*슬라이드 때문에 position 필요 */
+    /*슬라이드 때문에 position 필요 */
     position: relative;
     top:0; left: 0;
 
@@ -215,7 +211,6 @@ section article{
 	position: absolute;
 	top:250px; left: 50%;
 	width: 800px; height: 80px;
-	 /* border:1px solid red; */
 	transform: translateX(-50%);
 	display: flex;
 	justify-content: space-between;
@@ -223,7 +218,6 @@ section article{
 
 .at2 .at2_arrow li{
 	width: 80px; height: 100%;
-	/* border:1px solid red; */
 	font-size: 30px;
 	text-align: center; line-height: 80px;
 	cursor: pointer; font-size: 50px;
@@ -237,7 +231,6 @@ section article{
     width: 100%; height: 100px;
 }
 .at6>#footer_img{
-/*    border: 1px solid red;*/
     width: 1280px; height: 100px;
     margin: 0 auto;
     background: url(../img/main/footer.svg);
@@ -274,7 +267,6 @@ section article{
 }
 .layer_bg>.layer>ul>li{
     width: 100%; text-align: center;
-    /* outline: 1px solid blue; */
 }
 .layer_bg>.layer>ul>li:nth-child(1){
     height: 100px; padding-top: 20px;

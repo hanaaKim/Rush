@@ -22,7 +22,6 @@ header{
 header .wrap{
     max-width: 1280px; height: 70px;
     margin: 0 auto;
-    /* outline: 1px solid white; */
 }
 /*상단-로고*/
 .wrap #logo_home{
@@ -64,7 +63,6 @@ header .wrap{
 #main2{
     position: fixed;
     top:0; left: 50%;
-/*    border: 1px solid red;*/
     width: 1280px; height: 800px;
     transform: translateX(-50%);
     display: none;
@@ -74,7 +72,6 @@ section{
     position: relative;
     top:90px; left:0;
     width: 1280px;   
-/*    outline: 1px solid black ;*/
     margin: 0 auto;
 }
 /*----------좌측공간 at1시작---------*/
@@ -84,21 +81,14 @@ section{
 	z-index: -99;
     width: 640px; height: 3600px;
     background: #f2f2f2;
-/*    outline:1px solid red;*/
-
 }
 /*좌측-메뉴 타이틀 고정*/
 .at1>ul{
     position: fixed;
     top:400px; 
     width: 640px; height: 200px;
-/*    outline: 1px solid black;*/
-    
 }
-.at1>ul>li{
-    padding-left: 30px;
-/*    border: 1px solid black;*/
-}
+.at1>ul>li{ padding-left: 30px;}
 
 .at1>ul>li:nth-child(1){
     height: 40px; font-size: 20px;
@@ -115,8 +105,7 @@ section{
     
     width: 640px; 
     overflow: hidden;
-   /* border:1px solid blue; */
-   background: white;
+    background: white;
 }
 
 /*맨 처음 같이 있는 사진*/
@@ -131,7 +120,6 @@ section{
     position: relative;
     top:0; left: 0%;
     width: 100%; height: 230px;
-/*    border: 1px solid red;*/
     margin: 30px 0; padding: 30px; 
     text-align: center; line-height: 35px;
     transition: 2s;
@@ -159,8 +147,6 @@ section{
     position: absolute;
     top:0; left: 0;
     width: 500%; height: 100%;
-/*    border: 1px solid blue;*/
-    
 }
 .at2 .at2_img2 #at2_slide li{
     float: left;
@@ -180,7 +166,6 @@ section{
     width: 520px; height: 100px;
     font-size: 50px; line-height: 100px;
     color: white; font-size: 60px;
-/*    border: 1px solid blue;*/
 }
 
 .at2 .at2_img2 #at2_slide li p{
@@ -189,7 +174,6 @@ section{
     width: 520px; height: 50px;
     color:white;
     line-height: 50px;
-/*    border: 1px solid blue;*/
 }/*슬라이드 끝*/
 
 /* 슬라이드 클릭 알림창 */
@@ -218,7 +202,6 @@ section{
     position: relative;
     top:0; left: 0;
     width: 100%; height: 200px;
-/*    border: 1px solid red;*/
     padding: 30px;
     line-height: 35px;
     transition: 2s;
@@ -229,14 +212,12 @@ section{
 /*숫자 카운트*/
 .at2>.at2_count{
 	width: 100%; height: 550px;
-/*	border: 1px solid black;*/
 	background: url(../img/history/count_bg1.jpg) no-repeat center center;
 	background-size: 90% 100%;
 	
 }
 .at2>.at2_count>ul{
 	width: 100%; height: 100%;
-/*	border: 1px solid black;*/
 }
 .at2>.at2_count>ul>li{
 	width: 100%; height: 50%;
@@ -246,7 +227,6 @@ section{
 	position: relative;
 	top:40px; left: 100px;
 	width: 300px; height: 200px;
-/*	border: 1px solid blue;*/
 	font-size: 230px;
 	text-align: center; line-height: 200px;
 	font-family: 'Londrina Outline', cursive;
@@ -257,7 +237,6 @@ section{
 	position: relative;
 	top:50px; left: 50px;
 	width: 200px; height: 150px;
-/*	border: 1px solid blue;*/
 	font-size: 90px;
 	text-align: center; line-height: 150px;
 }
@@ -268,7 +247,6 @@ section{
 	width: 60%; height: 80px;
 	text-align: center; line-height: 80px;
 	font-size: 45px; 
-/*	border: 1px solid blue;*/
 }
 /*INGREDIENTS SOURCED DIRECTLY*/
 .at2>.at2_count>ul>li:nth-child(2)>p:nth-child(2){
@@ -277,7 +255,6 @@ section{
 	width: 80%; height: 80px;
 	line-height: 80px;
 	font-size: 20px; color:#378637;
-/*	border: 1px solid blue;*/
 }
 
 /*마지막 이미지*/
@@ -285,11 +262,9 @@ section{
     margin-top: 50px;
     margin-left:5%;
     width: 90%; height: 300px;
-/*    border: 1px solid blue;*/
     background: url(../img/history/showcase.jpg) no-repeat; 
     background-size: 100% 100%;
 }
-
 
 
 /*div-at3 시작 - 하단 이미지*/
@@ -299,13 +274,11 @@ section{
     height: 100px;
 }
 .at3>#footer_img{
-/*    border: 1px solid red;*/
     width: 1280px; height: 100px;
     margin: 0 auto;
     background: url(../img/main/footer.svg);
     background-size: 100% 100%;
 }
-/*---------------footer시작-----------------*/
 
 
 

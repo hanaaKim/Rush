@@ -22,7 +22,6 @@ header{
 header .wrap_header{
 	max-width: 1280px; height: 70px;
     margin: 0 auto;
-    /* outline: 1px solid white; */
 }
 /*상단-로고*/
 .wrap_header #logo_home{
@@ -47,14 +46,12 @@ header .wrap_header{
 #main2{
     position: fixed;
     top:0; left: 50%;
-/*    border: 1px solid red;*/
     width: 1280px; height: 800px;
     transform: translateX(-50%);
 	display: none;
 }
-/*==================================================*/
-/*-------section시작-------*/
 
+/*-------section시작-------*/
 section article{
     position: relative;
     top:90px; left:0;
@@ -72,7 +69,6 @@ section article{
 	top:100px; left: 50%;
 	transform: translateX(-50%);
 	font-size: 50px;
-	/* border: 1px solid red; */
     color: white; 
 }
 
@@ -81,10 +77,8 @@ section article{
 	top:180px; left: 50%;
 	transform: translateX(-50%);
 	font-size: 28px;
-	/* border: 1px solid red; */
     color: white;
 }
-
 
 /*---at2----시작*/
 .at2{height: 250px;}
@@ -143,7 +137,6 @@ section article{
 /*---------------at3 콤보박스---------------*/
 .at3{
 	height: 800px;
-	/* border: 1px solid red; */
 	margin: 50px 0;
 }
 
@@ -177,7 +170,6 @@ section article{
 	position: relative;
 	top:0; left: 0;
 	width: 100%; height: 50px;
-	/* outline: 1px solid red; */
 	text-align: center; line-height: 50px;
 	background: white;
 	font-size: 18px;
@@ -213,7 +205,6 @@ section article{
     height: 100px;
 }
 .at6>#footer_img{
-/*    border: 1px solid red;*/
     width: 1280px; height: 100px;
     margin: 0 auto;
     background: url(../img/main/footer.svg);

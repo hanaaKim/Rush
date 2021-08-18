@@ -14,7 +14,6 @@ footer{
 	position: relative;
 	top: 0; left: 0;
 	min-width:1280px; height: 300px;
-/*	outline: 1px solid blue;*/
 	background: black;
 }	
 
@@ -22,7 +21,6 @@ footer>ul{
     position: absolute;
 	top:25px; left: 50%;
     width:1280px; height: 250px;
-    /* border: 1px solid white; */
 	transform: translateX(-50%);
     background: black;
 
@@ -30,7 +28,6 @@ footer>ul{
 
 footer ul li{
     position: relative;
-/*    outline: 1px solid white;*/
     color:white;
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -78,11 +75,8 @@ footer>ul>li:nth-child(4){
     width: 70%; height: 110px;
     padding-top: 15px;
     font-size: 18px; line-height: 30px;
-    
-	
 }
 footer>ul>li:nth-child(4)>#preview{
-    
 	cursor: pointer;
     animation: previewAni 1s infinite;
 }
@@ -97,5 +91,4 @@ footer>ul>li:nth-child(5){
     top:-240px; left:30%;
     width: 70%; height: 80px;
     font-size: 12px; line-height: 20px;
-	
 }
